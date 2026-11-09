@@ -462,18 +462,14 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
 				#wpforms-98 {
 				
 			}
-			</style><div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-98"><form id="wpforms-form-98" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="98" method="post" enctype="multipart/form-data" action="/contact-us/" data-token="08c620f03ae5b3a820ae27393f1129e2" data-token-time="1793491744"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div id="wpforms-error-noscript" style="display: none;">Please enable JavaScript in your browser to complete this form.</div><div class="wpforms-field-container"><div id="wpforms-98-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><fieldset><legend class="wpforms-field-label">Name <span class="wpforms-required-label" aria-hidden="true">*</span></legend><div class="wpforms-field-row wpforms-field-medium"><div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-98-field_0" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][0][first]" aria-errormessage="wpforms-98-field_0-error" required><label for="wpforms-98-field_0" class="wpforms-field-sublabel after">First</label></div><div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-98-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][0][last]" aria-errormessage="wpforms-98-field_0-last-error" required><label for="wpforms-98-field_0-last" class="wpforms-field-sublabel after">Last</label></div></div></fieldset></div>		<div id="wpforms-98-field_3-container" class="wpforms-field wpforms-field-text" data-field-type="text" data-field-id="3">
-			<label class="wpforms-field-label" for="wpforms-98-field_3">Email Name Comment</label>
-			<input type="text" id="wpforms-98-field_3" class="wpforms-field-medium" name="wpforms[fields][3]">
-		</div>
-		<div id="wpforms-98-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label" for="wpforms-98-field_1">Email <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-98-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" spellcheck="false" aria-errormessage="wpforms-98-field_1-error" required></div><div id="wpforms-98-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-98-field_2">Comment or Message</label><textarea id="wpforms-98-field_2" class="wpforms-field-medium" name="wpforms[fields][2]" aria-errormessage="wpforms-98-field_2-error"></textarea></div><script>
-				( function() {
-					const style = document.createElement( 'style' );
-					style.appendChild( document.createTextNode( '#wpforms-98-field_3-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-98-field_3-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-98-field_3-container label { counter-increment: none; }' ) );
-					document.head.appendChild( style );
-					document.currentScript?.remove();
-				} )();
-			</script></div><!-- .wpforms-field-container --><div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]" value="98"><input type="hidden" name="wpforms[time_token]" value="1793491744.afeb563f57f0a902d88491dcfb666245f8286fa0be34298929d9a2a397d44771"><input type="hidden" name="page_title" value="Contact Us"><input type="hidden" name="page_url" value="/contact-us/"><input type="hidden" name="url_referer" value=""><input type="hidden" name="page_id" value="208"><input type="hidden" name="wpforms[post_id]" value="208"><button type="submit" name="wpforms[submit]" id="wpforms-submit-98" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button><img decoding="async" src="/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading"></div></form></div>  <!-- .wpforms-container --></div>				</div>
+			</style><div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-98"><form class="superior-static-contact" action="/api/contact" method="post" style="display:block!important" novalidate>
+<div class="sc-row"><label>First name <input type="text" name="first_name" autocomplete="given-name" required></label><label>Last name <input type="text" name="last_name" autocomplete="family-name"></label></div>
+<label>Email <input type="email" name="email" autocomplete="email"></label>
+<label>Phone <input type="tel" name="phone" autocomplete="tel"></label>
+<label>Message <textarea name="message" rows="5" required></textarea></label>
+<div class="superior-turnstile"></div>
+<button type="submit" disabled>Send Message</button><p class="superior-feedback" role="status" aria-live="polite"></p>
+</form></div>  <!-- .wpforms-container --></div>				</div>
 				</div>
 					</div>
 		</div>
@@ -633,5 +629,44 @@ var wpforms_settings = {"val_required":"This field is required.","val_email":"Pl
 /* ]]> */
 </script>
 
+<style id="superior-contact-lightbox-styles">
+.superior-static-contact{max-width:720px;margin:10px auto 28px;color:inherit;font:inherit}.superior-static-contact label{display:block;margin:0 0 15px;font-weight:600}.superior-static-contact input,.superior-static-contact textarea{display:block;margin:7px 0 0;width:100%;max-width:100%;padding:12px 14px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#182333;font:inherit;box-sizing:border-box}.superior-static-contact .sc-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.superior-static-contact button{border:0;border-radius:6px;background:#243c61;color:#fff;padding:12px 26px;cursor:pointer;font:inherit;font-weight:600}.superior-static-contact button:disabled{opacity:.55;cursor:not-allowed}.superior-feedback{min-height:1.4em;margin:12px 0}.superior-turnstile{margin:16px 0}@media(max-width:560px){.superior-static-contact .sc-row{grid-template-columns:1fr}}
+#superior-lightbox{position:fixed;inset:0;z-index:2147483000;display:none;align-items:center;justify-content:center;background:rgba(3,9,18,.94);padding:55px 76px;box-sizing:border-box}#superior-lightbox[aria-hidden="false"]{display:flex}#superior-lightbox img{display:block;max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:3px}#superior-lightbox button{position:absolute;border:1px solid rgba(255,255,255,.3);color:#fff;background:rgba(25,35,50,.65);border-radius:100%;width:48px;height:48px;font-size:27px;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1}#superior-lightbox button:hover,#superior-lightbox button:focus-visible{background:#456180;outline:2px solid #fff}#superior-lightbox .sc-close{top:15px;right:18px}#superior-lightbox .sc-prev{left:15px;top:50%;transform:translateY(-50%)}#superior-lightbox .sc-next{right:15px;top:50%;transform:translateY(-50%)}#superior-lightbox .sc-count{position:absolute;bottom:16px;left:0;right:0;color:#fff;text-align:center;font:14px Arial,sans-serif}@media(max-width:600px){#superior-lightbox{padding:60px 40px}#superior-lightbox button{width:38px;height:38px;font-size:23px}#superior-lightbox .sc-prev{left:3px}#superior-lightbox .sc-next{right:3px}}
+</style>
+<script id="superior-static-enhancements">
+(function(){
+'use strict';
+const forms=[...document.querySelectorAll('form.superior-static-contact')];
+if(forms.length){
+const loader=document.createElement('script');loader.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';loader.async=true;document.head.appendChild(loader);
+Promise.all([fetch('/api/contact',{method:'GET'}).then(async r=>{if(!r.ok)throw Error('Form unavailable');return r.json()}),new Promise((resolve,reject)=>{loader.onload=resolve;loader.onerror=reject})]).then(([config])=>{
+if(!config.siteKey||!window.turnstile)throw Error('Turnstile unavailable');
+forms.forEach(form=>{const widget=window.turnstile.render(form.querySelector('.superior-turnstile'),{sitekey:config.siteKey});form.dataset.widget=String(widget);form.querySelector('button[type=submit]').disabled=false;});
+}).catch(()=>forms.forEach(f=>{f.querySelector('.superior-feedback').textContent='Contact form is temporarily unavailable. Please call or email us.';}));
+forms.forEach(form=>form.addEventListener('submit',async e=>{
+e.preventDefault();e.stopImmediatePropagation();
+const feedback=form.querySelector('.superior-feedback'),button=form.querySelector('button[type=submit]');
+const first=form.querySelector('[name=first_name]').value.trim(),last=form.querySelector('[name=last_name]').value.trim(),email=form.querySelector('[name=email]').value.trim(),phone=form.querySelector('[name=phone]').value.trim(),message=form.querySelector('[name=message]').value.trim();
+if(!first||!message||(!email&&!phone)){feedback.textContent='Please enter your name, message, and an email or phone number.';return}
+const widget=Number(form.dataset.widget);const token=window.turnstile&&window.turnstile.getResponse(widget);
+if(!token){feedback.textContent='Please complete the spam protection check.';return}
+button.disabled=true;feedback.textContent='Sending...';
+const data=new FormData();data.set('name',(first+' '+last).trim());data.set('email',email);data.set('phone',phone);data.set('message',message);data.set('subject','Website inquiry');data.set('cf-turnstile-response',token);
+try{const res=await fetch('/api/contact',{method:'POST',body:data});const out=await res.json();if(!res.ok||!out.ok)throw Error(out.error||'Unable to send.');form.reset();feedback.textContent='Your message has been sent. Thank you.';}catch(err){feedback.textContent=err.message||'Could not send. Please try again.'}finally{window.turnstile.reset(widget);button.disabled=false;}
+},true));
+}
+const anchors=[...document.querySelectorAll('a.bwg_lightbox[href]')].filter(a=>a.getAttribute('href').startsWith('/wp-content/uploads/'));
+if(!anchors.length)return;
+const modal=document.createElement('div');modal.id='superior-lightbox';modal.setAttribute('role','dialog');modal.setAttribute('aria-label','Project photo gallery');modal.setAttribute('aria-modal','true');modal.setAttribute('aria-hidden','true');modal.innerHTML='<button class="sc-close" type="button" aria-label="Close gallery">&times;</button><button class="sc-prev" type="button" aria-label="Previous image">&#10094;</button><img alt=""><button class="sc-next" type="button" aria-label="Next image">&#10095;</button><div class="sc-count" aria-live="polite"></div>';document.body.appendChild(modal);
+let current=0;let lastFocus=null;let oldOverflow='';
+const img=modal.querySelector('img'),count=modal.querySelector('.sc-count');
+function render(){const anchor=anchors[current];img.src=anchor.href;img.alt=anchor.querySelector('img')?.alt||'Project photo';count.textContent=(current+1)+' / '+anchors.length;}
+function close(){modal.setAttribute('aria-hidden','true');document.body.style.overflow=oldOverflow;img.removeAttribute('src');if(lastFocus&&lastFocus.isConnected)lastFocus.focus();}
+function move(delta){current=(current+delta+anchors.length)%anchors.length;render();}
+anchors.forEach((a,i)=>a.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();lastFocus=a;current=i;oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';render();modal.setAttribute('aria-hidden','false');modal.querySelector('.sc-close').focus();},true));
+modal.querySelector('.sc-close').addEventListener('click',close);modal.querySelector('.sc-prev').addEventListener('click',()=>move(-1));modal.querySelector('.sc-next').addEventListener('click',()=>move(1));modal.addEventListener('click',e=>{if(e.target===modal)close()});
+document.addEventListener('keydown',e=>{if(modal.getAttribute('aria-hidden')==='true')return;if(e.key==='Escape'){close();e.preventDefault()}else if(e.key==='ArrowLeft'){move(-1);e.preventDefault()}else if(e.key==='ArrowRight'){move(1);e.preventDefault()}else if(e.key==='Tab'){const buttons=[...modal.querySelectorAll('button')];if(e.shiftKey&&document.activeElement===buttons[0]){buttons[buttons.length-1].focus();e.preventDefault()}else if(!e.shiftKey&&document.activeElement===buttons[buttons.length-1]){buttons[0].focus();e.preventDefault()}}});
+})();
+</script>
 </body>
 </html>
