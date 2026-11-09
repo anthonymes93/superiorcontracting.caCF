@@ -48,3 +48,5 @@ export async function onRequestPost({request,env}){
 export function onRequestGet({env}){
  return env.TURNSTILE_SITE_KEY?json({siteKey:env.TURNSTILE_SITE_KEY}):json({error:"Turnstile not configured."},503);
 }
+
+// Deployment refresh: no functional changes.
